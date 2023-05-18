@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import {useQuery, gql} from "@apollo/client"
+import {useQuery} from "@apollo/client"
 import { LOAD_USERS } from "../GraphQl/Queries"
 
 export default function GetUsers() {
@@ -11,8 +11,8 @@ export default function GetUsers() {
     },[data])
 
     return (
-        <div>
-
+        <div className='users-box'>
+            Users List
         </div>
     )
 }
