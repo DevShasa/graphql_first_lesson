@@ -12,7 +12,7 @@ export default function GetUsers() {
 
     return (
         <div>
-
+            {/* This is where you display the users */}
         </div>
     )
 }
